@@ -1,0 +1,12 @@
+*.mp4
+*.avi
+*.png
+*.jpg
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Mac
+.DS_Store

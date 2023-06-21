@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openpiv = "*"
+opencv-python = "*"
+matplotlib = "*"
+ffmpeg-python = "*"
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
+
+[scripts]
+start = "python main.py"
+images2video = "python images2video.py"
